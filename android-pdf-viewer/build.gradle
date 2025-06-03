@@ -42,7 +42,7 @@ android {
 
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    api 'com.github.marain87:PdfiumAndroid:master-SNAPSHOT'
+    api 'com.github.marain87:PdfiumAndroid:16KB-SNAPSHOT'
 }
 
 publishing {
