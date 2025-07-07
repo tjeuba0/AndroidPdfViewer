@@ -11,7 +11,7 @@ android {
         minSdk rootProject.tools.minSdk
         targetSdk rootProject.tools.targetSdk
 
-        versionCode 5
+        versionCode 6
         versionName "${rootProject.tools.versionName}"
 
         javaCompileOptions {
