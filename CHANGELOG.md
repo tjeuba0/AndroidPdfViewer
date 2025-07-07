@@ -1,3 +1,6 @@
+## 3.2.7 (2025-07-07)
+* Update [PdfiumAndroid library](https://github.com/marain87/PdfiumAndroid) to 1.9.7
+
 ## 3.2.6 (2025-06-03)
 * upgrade gradle plugin and ndk to support for 16KB Page Size
 * Update [PdfiumAndroid library](https://github.com/marain87/PdfiumAndroid) to 1.9.6

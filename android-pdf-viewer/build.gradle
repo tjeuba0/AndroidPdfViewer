@@ -42,7 +42,7 @@ android {
 
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    api 'com.github.marain87:PdfiumAndroid:16KB-SNAPSHOT'
+    api 'com.github.marain87:PdfiumAndroid:1.9.7'
 }
 
 publishing {
@@ -50,7 +50,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.github.marain87'
             artifactId = 'AndroidPdfViewer'
-            version = "3.2.6"
+            version = "3.2.7"
 
             afterEvaluate {
                 from components.release
