@@ -14,8 +14,6 @@ android {
         minSdk rootProject.tools.minSdk
         targetSdk rootProject.tools.targetSdk
 
-        versionCode rootProject.tools.versionCode
-        versionName "${rootProject.tools.versionName}"
     }
 
     buildTypes {
@@ -41,8 +39,8 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.6.1'
-    api 'com.github.marain87:PdfiumAndroid:1.9.7'
+    implementation 'androidx.appcompat:appcompat:1.7.1'
+    api 'com.github.marain87:PdfiumAndroid:1.9.8'
 }
 
 publishing {
@@ -50,7 +48,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.github.marain87'
             artifactId = 'AndroidPdfViewer'
-            version = "3.2.7"
+            version = "3.2.8"
 
             afterEvaluate {
                 from components.release
