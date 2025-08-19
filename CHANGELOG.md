@@ -1,3 +1,7 @@
+## 3.2.8 (2025-08-19)
+* upgrade gradle plugin
+* Update [PdfiumAndroid library](https://github.com/marain87/PdfiumAndroid) to 1.9.8
+
 ## 3.2.7 (2025-07-07)
 * Update [PdfiumAndroid library](https://github.com/marain87/PdfiumAndroid) to 1.9.7
 
